@@ -1,0 +1,46 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE & Editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Large Model Weights & Checkpoints (Prevent pushing heavy binary files)
+*.pth
+*.pt
+*.onnx
+*.bin
+*.h5
+*.tflite
+*.ckpt
+
+# Archives / Compressed files (Datasets should be extracted or downloaded via link)
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Large dataset ignore example (uncomment if you have a TP with massive data > 50MB)
+# tp*/**/large_data/
+# tp*/**/*.parquet
