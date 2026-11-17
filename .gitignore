@@ -3,9 +3,11 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# Jupyter Notebook Checkpoints
+# Jupyter Notebook Checkpoints & LSP Cache
 .ipynb_checkpoints/
 */.ipynb_checkpoints/*
+.virtual_documents/
+*/.virtual_documents/*
 
 # Virtual Environments
 .venv/
@@ -44,3 +46,4 @@ Thumbs.db
 # Large dataset ignore example (uncomment if you have a TP with massive data > 50MB)
 # tp*/**/large_data/
 # tp*/**/*.parquet
+
