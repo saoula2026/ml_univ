@@ -36,7 +36,7 @@ ml_univ/
 | TP | Topic / Subject | Dataset | Status |
 | :--- | :--- | :--- | :---: |
 | **[TP 01](./tp01/)** | **Data Exploration, Cleaning & Preprocessing**<br>• Missing values handling<br>• Outliers & duplicates detection<br>• Feature transformation & encoding<br>• Descriptive statistics | Titanic Dataset (`train.csv`) | ✅ Completed |
-| **[TP 02](./tp02/)** | *To be added* | *TBD* | ⏳ Pending |
+| **[TP 02](./tp2/)** | **Supervised Learning: Regression**<br>• Simple & Multiple Linear Regression<br>• Multicollinearity & VIF diagnostics<br>• Ridge (L2) & Lasso (L1) Regularization<br>• Model evaluation & metrics (MAE, RMSE, R²) | Diabetes Dataset (`diabetes.csv`) | ✅ Completed |
 | **[TP 03](./tp03/)** | *To be added* | *TBD* | ⏳ Pending |
 
 ---
