@@ -1,5 +1,8 @@
-Model,Parameters (p),Train MAE,Train RMSE,Train R2,Test MAE,Test MSE,Test RMSE,Test R2,Test Adj R2
-Simple Linear Regression (BMI),1,51.38,62.08,0.3657,52.26,4061.83,63.73,0.2334,0.2245
-Multiple Linear Regression (All 10),10,43.48,53.56,0.5279,42.79,2900.19,53.85,0.4526,0.3824
-Ridge Regression (alpha=20.0),10,43.71,53.81,0.5234,42.89,2867.95,53.55,0.4587,0.3893
-Lasso Regression (alpha=2.0),7,44.23,54.15,0.5174,42.84,2798.6,52.9,0.4718,0.4261
+Model,Parameters,Train MAE,Train RMSE,Train R2,Test MAE,Test RMSE,Test R2
+1. Simple Linear Regression (BMI),1,51.38,62.08,0.3657,52.26,63.73,0.2334
+2. Multiple Linear Regression (OLS),10,43.48,53.56,0.5279,42.79,53.85,0.4526
+"3. Polynomial Regression (Degree 2, OLS)",65,39.14,48.92,0.6062,43.58,55.64,0.4156
+"4. Ridge Regression (L2, alpha=20.0)",10,43.71,53.81,0.5234,42.89,53.55,0.4587
+"5. Lasso Regression (L1, alpha=2.0)",7,44.23,54.15,0.5174,42.84,52.9,0.4718
+"6. Polynomial Ridge (Degree 2 + L2, alpha=100.0)",65,41.95,51.66,0.5608,41.57,51.57,0.4981
+"7. Polynomial Lasso (Degree 2 + L1, alpha=4.0)",14,44.28,53.95,0.5209,41.9,51.23,0.5047
